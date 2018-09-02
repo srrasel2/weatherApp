@@ -5,9 +5,9 @@ Weather App powered by ReactJS
 
 ```
 Ensure you have [nodejs] installed
-git clone https://github.com/rajibchandrakarmaker/github-card.git
+git clone https://github.com/rajibchandrakarmaker/weatherApp.git
 npm install
 npm start
 visit http://localhost:3000/
 ```
-Demo - https://rajibchandrakarmaker.github.io/weatherApp/
+Demo - https://rajibchandrakarmaker.github.io/weatherApp/  (Load the unsafe script to check the demo because API URL is coming from http)
