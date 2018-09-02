@@ -28,7 +28,7 @@ export const Formstyles = theme => ({
   bootstrapInput: {
     borderRadius: 4,
     backgroundColor: theme.palette.common.white,
-    border: '1px solid #ced4da',
+    border: '1px solid #fff',
     fontSize: 16,
     padding: '10px 12px',
     width: 'calc(100% - 24px)',
@@ -46,7 +46,7 @@ export const Formstyles = theme => ({
       '"Segoe UI Symbol"'
     ].join(','),
     '&:focus': {
-      borderColor: '#80bdff',
+      borderColor: '#fff',
       boxShadow: '0 0 0 0.2rem rgba(0,123,255,.25)'
     }
   },

@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
+
+import './styles.css';
+
 import Form from './components/Form/Form';
-import { Para } from './styles';
+import Title from './components/Title/Title';
+import Result from './components/Result/Result';
 
 class App extends Component {
   constructor(props) {
@@ -9,9 +13,12 @@ class App extends Component {
   }
   render() {
     return (
-      <div>
-        <Para />
-        <Form />
+      <div className="appContainer">
+        <div className="innerContainer">
+          <Title />
+          <Form />
+          <Result />
+        </div>
       </div>
     );
   }
