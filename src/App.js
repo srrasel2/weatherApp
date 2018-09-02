@@ -53,6 +53,8 @@ class App extends Component {
         title: ''
       });
     }
+    document.querySelector('input').value = '';
+    document.getElementsByName('city')[0].focus();
   };
   render() {
     return (
