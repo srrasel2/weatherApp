@@ -8,21 +8,11 @@ import FormControl from '@material-ui/core/FormControl';
 import Button from '@material-ui/core/Button';
 
 class Form extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  handleSubmit = event => {
-    event.preventDefault();
-    console.log(44);
-  };
-
   render() {
     const { classes } = this.props;
     return (
       <div className={classes.container}>
-        <form onSubmit={this.handleSubmit}>
+        <form onSubmit={this.props.getWeather}>
           <FormControl className={classes.margin}>
             <InputLabel
               FormLabelClasses={{
@@ -38,6 +28,8 @@ class Form extends Component {
                 underline: classes.cssUnderline
               }}
               id="custom-css-input"
+              name="city"
+              autoComplete="off"
             />
           </FormControl>
           <FormControl className={classes.margin}>
@@ -55,6 +47,8 @@ class Form extends Component {
                 underline: classes.cssUnderline
               }}
               id="custom-css-input"
+              name="country"
+              autoComplete="off"
             />
           </FormControl>
           <Button
