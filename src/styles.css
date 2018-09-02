@@ -45,3 +45,7 @@ h6 {
   margin: 15px auto;
   padding: 31px 0px;
 }
+span.error {
+  display: block;
+  text-align: center;
+}

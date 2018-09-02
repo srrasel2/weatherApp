@@ -43,7 +43,7 @@ const Result = props => {
           )}
         </li>
       </ul>
-      {props.error && <span className="error"> {alert(props.error)} </span>}
+      {props.error && <span className="error"> {props.error} </span>}
     </WeatherResults>
   );
 };
