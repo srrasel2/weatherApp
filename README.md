@@ -10,4 +10,4 @@ npm install
 npm start
 visit http://localhost:3000/
 ```
-Demo - https://rajibchandrakarmaker.github.io/weatherApp/  (Load the unsafe script to check the demo because API URL is coming from http)
+Demo - https://rajibchandrakarmaker.github.io/weatherApp/  (Load the unsafe script from browser to check the demo because API URL is coming from http)
