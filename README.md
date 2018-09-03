@@ -6,6 +6,7 @@ Weather App powered by ReactJS
 ```
 Ensure you have [nodejs] installed
 git clone https://github.com/rajibchandrakarmaker/weatherApp.git
+cd weatherApp
 npm install
 npm start
 visit http://localhost:3000/
